@@ -1,0 +1,30 @@
+.button-area{
+    display: flex;
+    justify-content: center;
+}
+
+.add-button {
+    width: 45px;
+    height: 45px;
+
+    font-size: 25px;
+    font-weight: bold;
+
+    background-color: lightcyan;
+    border: none;
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+.table input {
+    width: 60%;
+    border: none;
+    background: transparent;
+    padding: 5px;
+}
+
+.table input:focus {
+    outline: 1px solid #888;
+    background: white;
+}
