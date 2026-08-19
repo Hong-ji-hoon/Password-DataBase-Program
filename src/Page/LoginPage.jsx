@@ -23,11 +23,11 @@ function LoginPage() {
             return;
         }
 
-        if (id !== "RORZE") {
+        if (id !== "H") {
             setMessage("아이디가 틀렸습니다.");
             return;
         }
-        else if(pw!=="RORZE")
+        else if(pw!=="H")
         {
             setMessage("비밀번호가 틀렸습니다.")
             return;
