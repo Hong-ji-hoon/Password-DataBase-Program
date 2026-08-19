@@ -14,3 +14,22 @@
 - JavaScript
 - IndexedDB
 - Vite
+
+## 사용 방법
+1. 다운받고,편집기에서 실행한다.
+2. 메모장에 Batch파일을 만들어서 실행파일로 만든다.
+3. 실행파일을 실행하여,각 사이트별 아이디,비밀번호를 저장하여 사용한다.
+
+
+## 배치파일 생성
+@echo off
+
+cd /d "프로젝트의 Package파일의 경로"                <- Package파일의 경로를 적어주시면됩니다.
+
+start "" /min cmd /c "npm run dev"
+
+timeout /t 1 /nobreak >nul
+
+start "" "http://localhost:5173"                   <- 호스트가 다를경우,변경하시면 됩니다.
+
+exit
