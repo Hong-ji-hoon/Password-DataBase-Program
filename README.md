@@ -1,16 +1,16 @@
-# React + Vite
+# 비밀번호 데이터베이스 프로그램
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+각 사이트별 아이디와 비밀번호를 저장하고 관리하기 위한 개인용 비밀번호 관리 프로그램입니다.
+자주 사용하는 계정 정보를 한곳에서 간편하게 등록, 수정 및 관리할 수 있도록 제작했습니다.
 
-Currently, two official plugins are available:
+## 주요 기능
+- 사이트별 아이디 / 비밀번호 등록
+- 저장된 계정 정보 조회 및 수정
+- IndexedDB를 이용한 로컬 데이터 저장
+- JSON 파일을 이용한 데이터 백업 및 복원
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 사용 기술
+- React
+- JavaScript
+- IndexedDB
+- Vite
